@@ -4,7 +4,8 @@
 
 Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的介绍，如果有更详细的中文介绍，对相应开发者的帮助会更大。这也是我们发起这个开源项目的初衷。
 
-* * *
+
+## 关于项目
 
 ### 我们要做什么？
 
@@ -13,20 +14,6 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
   - 《[Scrapy：Python 的爬虫框架](http://hao.jobbole.com/python-scrapy/)》
   - 《[Flask：一个使用 Python 编写的轻量级 Web 应用框架](http://hao.jobbole.com/flask/)》
 
-* * *
-
-### 如何参与本项目？
-
-<!-- 从下面的目录来看，本项目的工作量小不了，所以非常期待能有更多程序员一起来参与。
-
-不过加入前，有几个小要求：
-
-* 英文还不错，能读懂英文并用自己的话复述；
-* 在用 Python；
-
-如有兴趣，请加 QQ：50872495。加 Q 时请注明「Python大全」 -->
-
-* * *
 
 ### 如何为列表贡献新资源？
 
@@ -39,26 +26,16 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 
 感谢您的贡献！
 
-* * *
 
 ### 本项目的参与者
 
 - 维护者：
-- 贡献者：[艾凌风](https://github.com/hanxiaomax)、Namco、[Daetalus](https://github.com/Daetalus)、[黄利民](http://www.jobbole.com/members/huanglimin/)、[atupal](http://www.jobbole.com/members/atupal/)、[rainbow](http://www.jobbole.com/members/rainbow/)、[木头lbj](https://github.com/mutoulbj)、[beyondwu](http://www.jobbole.com/members/beyondwu/)、[cissoid](https://github.com/cissoid)、[李广胜](https://github.com/liguangsheng)、[polyval](https://github.com/polyval)、[冰斌](http://www.jobbole.com/members/libing1209/)、[赵叶宇](http://www.jobbole.com/members/nelsonzhao/)、[л stalgic](http://www.jobbole.com/members/fengfeng19910805/)、[硕恩](http://www.jobbole.com/members/shawnw/)、[strongit](https://github.com/strongit)、[yuukilp](http://www.jobbole.com/members/yuukilp/)、[chenjiandongx](https://github.com/chenjiandongx)、[autopenguin](https://github.com/autopenguin)、[visonforcoding](https://github.com/visonforcoding)、[Super赛亚人](https://github.com/No-96)
+- 贡献者：[艾凌风](https://github.com/hanxiaomax)、Namco、[Daetalus](https://github.com/Daetalus)、[黄利民](http://www.jobbole.com/members/huanglimin/)、[atupal](http://www.jobbole.com/members/atupal/)、[rainbow](http://www.jobbole.com/members/rainbow/)、[木头lbj](https://github.com/mutoulbj)、[beyondwu](http://www.jobbole.com/members/beyondwu/)、[cissoid](https://github.com/cissoid)、[李广胜](https://github.com/liguangsheng)、[polyval](https://github.com/polyval)、[冰斌](http://www.jobbole.com/members/libing1209/)、[赵叶宇](http://www.jobbole.com/members/nelsonzhao/)、[л stalgic](http://www.jobbole.com/members/fengfeng19910805/)、[硕恩](http://www.jobbole.com/members/shawnw/)、[strongit](https://github.com/strongit)、[yuukilp](http://www.jobbole.com/members/yuukilp/)、[chenjiandongx](https://github.com/chenjiandongx)、[autopenguin](https://github.com/autopenguin)、[visonforcoding](https://github.com/visonforcoding)、[Super赛亚人](https://github.com/No-96)、[Since-future](https://github.com/Since-future)、[knktc](https://github.com/knktc)
 
 注：名单不分排名，不定期补充更新
 
-* * *
 
-<!-- ### 奖励计划
-
-虽然奖励可能并不是你加入的主要原因，但还是有必要提一下：
-
-* 整理超过 20 个资源后，可在伯乐在线上开通打赏；
-* 每整理 20 个资源，有机会获得技术书籍或各种有意思的创意、极客产品；
-* [奖励详情](http://hao.jobbole.com/rewards/)
-
-* * * -->
+## 资源列表
 
 ### 环境管理
 
@@ -69,6 +46,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 *   Vex：可以在虚拟环境中执行命令。[官网](https://github.com/sashahart/vex)
 *   virtualenv：创建独立 Python 环境的工具。[官网](https://pypi.python.org/pypi/virtualenv)
 *   virtualenvwrapper：virtualenv 的一组扩展。[官网](https://pypi.python.org/pypi/virtualenvwrapper)
+*   buildout：在隔离环境初始化后使用声明性配置管理。[官网](http://www.buildout.org/en/latest)
 
 ### 包管理
 
@@ -76,7 +54,8 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 
 *   pip：Python 包和依赖关系管理工具。[官网](https://pip.pypa.io/)
 *   pip-tools：保证 Python 包依赖关系更新的一组工具。[官网](https://github.com/nvie/pip-tools)
-*   pipenv：Pyhton 官方推荐的新一代包管理工具。[官网](https://github.com/pypa/pipenv)
+*   pipenv：Python 官方推荐的新一代包管理工具。[官网](https://github.com/pypa/pipenv)
+*   poetry: 可完全取代 setup.py 的包管理工具。[官网](https://poetry.eustace.io)
 *   conda：跨平台，Python 二进制包管理工具。[官网](https://github.com/conda/conda/)
 *   Curdling：管理 Python 包的命令行工具。[官网](http://clarete.li/curdling/)
 *   wheel：Python 分发的新标准，意在取代 eggs。[官网](http://pythonwheels.com/)
@@ -95,6 +74,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
 打包为可执行文件以便分发。
 
 *   PyInstaller：将 Python 程序转换成独立的执行文件（跨平台）。[官网](https://github.com/pyinstaller/pyinstaller)
+*   cx_Freeze：将python程序转换为带有一个动态链接库的可执行文件。[官网](https://cx-freeze.readthedocs.io/en/latest/index.html)
 *   dh-virtualenv：构建并将 virtualenv 虚拟环境作为一个 Debian 包来发布。[官网](http://dh-virtualenv.readthedocs.org/)
 *   Nuitka：将脚本、模块、包编译成可执行文件或扩展模块。[官网](http://nuitka.net/)
 *   py2app：将 Python 脚本变为独立软件包（Mac OS X）。[官网](http://pythonhosted.org/py2app/)
@@ -166,6 +146,7 @@ Awesome 系列虽然挺全，但基本只对收录的资源做了极为简要的
     *   uniout：打印可读的字符，而不是转义的字符串。[官网](https://github.com/moskytw/uniout)
     *   xpinyin：一个用于把汉字转换为拼音的库。[官网](https://github.com/lxneng/xpinyin)
     *   yfiglet-figlet：[pyfiglet -figlet](https://github.com/pwaller/pyfiglet) 的 Python 实现。
+    *   flashtext: 一个高效的文本查找替换库。[官网](https://github.com/vi3k6i5/flashtext)
 *   Slug 化
     *   awesome-slugify：一个 Python slug 化库，可以保持 Unicode。[官网](https://github.com/dimka665/awesome-slugify)
     *   python-slugify：Python slug 化库，可以把 unicode 转化为 ASCII。[官网](https://github.com/un33k/python-slugify)
@@ -387,6 +368,7 @@ Python 实现的数据库。
     *   dataset：在数据库中存储 Python 字典
     *   pymssql：一个简单的 Microsoft SQL Server 数据库接口。[官网](http://www.pymssql.org/en/latest/)
 *   NoSQL 数据库
+    *   asyncio-redis：基于 asyncio 的 redis 客户端 (PEP 3156)。[官网](https://github.com/jonathanslenders/asyncio-redis)
     *   cassandra-python-driver：Cassandra 的 Python 驱动。[官网](https://github.com/datastax/python-driver)
     *   HappyBase：一个为 Apache HBase 设计的，对开发者友好的库。[官网](http://happybase.readthedocs.org/en/latest/)
     *   Plyvel：一个快速且功能丰富的 LevelDB 的 Python 接口。[官网](https://plyvel.readthedocs.org/en/latest/)
@@ -559,7 +541,7 @@ Python 实现的数据库。
 *   django-compressor：将链接和内联的 JavaScript 或 CSS 压缩到一个单独的缓存文件中。[官网](https://github.com/django-compressor/django-compressor)
 *   django-storages：一个针对 Django 的自定义存储后端的工具集合。[官网](http://django-storages.readthedocs.org/en/latest/)
 *   fanstatic：打包、优化，并且把静态文件依赖作为 Python 的包来提供。[官网](http://www.fanstatic.org/en/latest/)
-*   File Conveyor：一个后台驻留的程序，用来发现和同步文件到 CDNs, S3 和 FTP。[官网](http://fileconveyor.org/)
+*   File Conveyor：一个后台驻留的程序，用来发现和同步文件到 CDNs, S3 和 FTP。[官网](https://wimleers.com/fileconveyor/)
 *   Flask-Assets：帮你将 web 资源整合到你的 Flask app 中。[官网](http://flask-assets.readthedocs.org/en/latest/)
 *   jinja-assets-compressor：一个 Jinja 扩展，用来编译和压缩你的资源。[官网](https://github.com/jaysonsantos/jinja-assets-compressor)
 *   webassets：为你的静态资源打包、优化和管理生成独一无二的缓存 URL。[官网](http://webassets.readthedocs.org/en/latest/)
@@ -593,6 +575,7 @@ Python 实现的数据库。
 *   modoboa：一个邮件托管和管理平台，具有现代的、简约的 Web UI。[官网](https://github.com/tonioo/modoboa)
 *   pyzmail：创建，发送和解析电子邮件。[官网](http://www.magiksys.net/pyzmail/)
 *   Talon：Mailgun 库，用来抽取信息和签名。[官网](https://github.com/mailgun/talon)
+*   yagmail：yagmail是一个GMAIL / SMTP客户端，旨在使其尽可能简单地发送电子邮件。[官网](https://pypi.org/project/yagmail/)
 
 ### 国际化
 
@@ -630,6 +613,7 @@ Python 实现的数据库。
 爬取网络站点的库
 
 *   Scrapy：一个快速高级的屏幕爬取及网页采集框架。[官网](http://scrapy.org/)
+*   ScrapydWeb：一个用于 Scrapyd 集群管理的全功能 web UI，支持 Scrapy 日志分析和可视化，自动打包，定时器任务和邮件通知等特色功能。[官网](https://github.com/my8100/scrapydweb)
 *   cola：一个分布式爬虫框架。[官网](https://github.com/chineking/cola)
 *   Demiurge：基于 PyQuery 的爬虫微型框架。[官网](https://github.com/matiasb/demiurge)
 *   feedparser：通用 feed 解析器。[官网](http://pythonhosted.org/feedparser/)
@@ -677,6 +661,7 @@ Python 实现的数据库。
 *   Schematics：数据结构验证。[官网](https://github.com/schematics/schematics)
 *   valideer：轻量级可扩展的数据验证和适配库。[官网](https://github.com/podio/valideer)
 *   voluptuous：一个 Python 数据验证库。主要是为了验证传入 Python 的 JSON，YAML 等数据。[官网](https://github.com/alecthomas/voluptuous)
+*   jsonschema：[JSON Schema](http://json-schema.org/)的 python 实现，用于 JSON 数据的验证。[官网](https://github.com/Julian/jsonschema)
 
 ### 反垃圾技术
 
@@ -695,7 +680,7 @@ Python 实现的数据库。
 
 管理界面库。
 
-*   Ajenti：一个你的服务器值得拥有的管理面板。[官网](https://github.com/Eugeny/ajenti)
+*   Ajenti：一个你的服务器值得拥有的管理面板。[官网](https://github.com/ajenti/ajenti)
 *   django-suit：Django 管理界面的一个替代品 (仅对于非商业用途是免费的)。[官网](http://djangosuit.com/)
 *   django-xadmin：Django admin 的一个替代品，具有很多不错的功能。[官网](https://github.com/sshwsfc/django-xadmin)
 *   flask-admin：一个用于 Flask 的简单可扩展的管理界面框架。[官网](https://github.com/flask-admin/flask-admin)
@@ -1125,6 +1110,7 @@ Python 实现的算法和设计模式。
 *   [algorithms](http://hao.jobbole.com/algorithms/)：一个 Python 算法模块。[官网](https://github.com/nryoung/algorithms) 
 *   python-patterns：Python 设计模式的集合。[官网](https://github.com/faif/python-patterns)
 *   sortedcontainers：快速，纯 Python 实现的 SortedList，SortedDict 和 SortedSet 类型。[官网](http://www.grantjenks.com/docs/sortedcontainers/)
+*   Python：使用Python实现的算法大全。[官网](https://github.com/TheAlgorithms/Python)
 
 ### 编辑器插件
 
